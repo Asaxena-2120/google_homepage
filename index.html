@@ -2,35 +2,39 @@
 <html>
     <head>
         <style>
+            .topnav{
+                font-family:sans-serif;
+                position: relative;
+                bottom: 0;
+                                
+                font-size: small;
+            }
+           
             .middle  {
                 
                 position:relative;
-                top: 50%;
-                left :50%;
-                right: 50%;
-                bottom: 50%;
+                top: 125px;;
+                left :42%;
 
             }
-            .bottomnav {
-
-                background-color: rgb(233, 233, 233);
-            }
-            .bottomnav a {
-                
-                color: grey;
-                font-size: small;
-            }
-            .topnav a {
+            .middle .search_c {
                 position: relative;
-                bottom: 0;
-                color: black;
-                font-size: small;
+               
+
             }
-            .middle .below_search {
-                background-color: rgb(235, 229, 229);
-                color: black;
-                font-size: small; 
+                        
+            .bottomnav {
+                position:absolute;
+                bottom: 0px;
+                height: 70px;
+                width:100%;
+                background-color: rgb(233, 233, 233);
+                font-family:sans-serif;
+                                
             }
+          
+           
+           
 
 
         </style>
@@ -40,62 +44,62 @@
         <div class="topnav">
 
         
-            <a href="#About">
+            <div  style="color:black; font-size: smaller; float:left">
                 About
-            </a>
-            <a href="#Store">
+            </div>
+            <div  style="color:black; font-size: smaller; float:left">
                 Store
-            </a>
-            <a href="#Gmail">
+            </div>
+            <div style="color:black; font-size: smaller; float:left">
                 Gmail
-            </a>
-            <a href="#Image">
+            </div>
+            <div style="color:black; font-size: smaller; float:left">
                 Images
-            </a>
-            <a href="#Sign in">
+            </div>
+            <div  style="color:black; font-size: smaller; float:left" >
                 Sign in
-            </a>
+            </div>
         </div>
 
 
         <div class="middle">
             <div class="search_c">
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo of google"/>
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="250" height="83" alt="logo of google" style="position: relative; right:200px;"/>
                 <form>
-                    <input type="text" placeholder="O-">
+                    <input type="text" placeholder="">
                 </form>
             </div>
-            <a class="below_search" href="Google Search">
+            <div class="below_search" href="Google Search" style="float:left; background-color: rgb(235, 229, 229); font-size: smaller; position: relative; left:20px; right:px ;">
                 Google Search
-            </a>
-            <a class="below_search" href="I'm Feeling Lucky">
+            </div>
+            <div class="below_search" href="I'm Feeling Lucky" style="background-color: rgb(235, 229, 229); font-size: smaller; position: relative; left:120px; right:250px; float:left ">
                 I'm Feeling Lucky
-            </a>
+            </div>
 
         </div>
         
         <div class="bottomnav">
-            <a href="#Advertising">
+            <div href="#Advertising" style="font-size: smaller; color: grey; position: relative; top:20px; float:left">
                 Advertising 
-            </a>
-            <a href="#Business">
+            </div>
+            <div href="#Business" style="font-size: smaller; color: grey; position: relative; top:20px; float:left">
                 Business
-            </a>   
-            <a href="How Search works">
+            </div>   
+            <div href="How Search works" style="font-size: smaller; color: grey; position: relative; top:20px;float:left">
                 How Search works
-            </a>
-            <a href="#Carbon nuetral since 2007">
+            </div>
+            <div href="#Carbon nuetral since 2007" style="font-size: smaller; color: grey; position: relative; top:20px; float:left">
                 Carbon nuetral since 2007
-            </a>
-            <a href="#Privacy">
+            </div>
+            <div href="#Privacy" style="font-size: smaller; color: grey; position: relative; top:20px;float:left">
                 Privacy
-            </a>
-            <a href="#Terms">
+            </div>
+            <div href="#Terms" style="font-size: smaller; color: grey; position: relative; top:20px; float:left">
                 Terms
-            </a>
-            <a href="#Settings">
+            </div>
+            <div href="#Settings" style="font-size: smaller; color: grey; position: relative; top:20px; float:left">
                 Settings
-            </a>
+            </div>
 
         </div>
         
